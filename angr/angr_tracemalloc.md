@@ -1,6 +1,6 @@
 ## tracemalloc数据分析
 分析step 1000 used 12159168K，占用11.59G内存
-![](imgs/malloc.png)
+![](../imgs/malloc.png)
 
 1. `simuvex/storage/paged_memory.py` : 129, Class：Page
 ```python
