@@ -7,7 +7,9 @@
 
 ## 文件的符号化
 - 构造一个虚拟文件, [示例代码](https://github.com/angr/angr-doc/blob/master/examples/asisctffinals2015_license/solve.py)
+
 ![](../imgs/eg2.png)
+
 - 解析xml文件，找出所有打开文件对应的Result，可能调用`open`，`fopen`,找到其最后一个pathnode，获取漏洞位置
 - 是否需要虚拟文件内容
 - 需要知道文件大小
