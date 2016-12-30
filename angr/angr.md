@@ -4,11 +4,11 @@
 - [示例脚本](https://github.com/angr/angr-doc/blob/master/examples/strcpy_find/solve.py), [ctf示例脚本2](https://github.com/angr/angr-doc/blob/master/examples/securityfest_fairlight/solve.py)
 - 解析xml文件，找出含有`argv`参数的每一个Result，然后找到其最后一个pathnode，获取漏洞所在位置
 - **确定`argv`参数的个数，以及每个参数的类型**
-![](imgs/eg1.png)
+![](../imgs/eg1.png)
 
 ## 文件的符号化
 - 构造一个虚拟文件, [示例代码](https://github.com/angr/angr-doc/blob/master/examples/asisctffinals2015_license/solve.py)
-![](imgs/eg2.png)
+![](../imgs/eg2.png)
 - 自行构造虚拟文件需要大致知道虚拟文件内容和文件大小
 - Angr会默认构造用到的文件，所以在`pg.found[0].state.posix.files`可以找到构造的文件名字与句柄
 - 如果希望angr不构造文件内容，需要指定`concrete_fs=True`
