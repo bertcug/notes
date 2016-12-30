@@ -40,8 +40,8 @@ def add(self, *constraints):
     return self._solver.add(cc)
 ```
 - 看一下`_solvers`里面都是些什么， `file_/dev/stdin_0_0_26_8`这是在约束表达式里面才可以看到的，`_solvers_list`里面存的其实是后面的`<SolverCompositeChild with 1 variables>`, `SolverCompositeChild`：`claripy\solvers.py`
-![](imgs/_solvers.png)
-- 看一下`SolverCompositeChild`: ![](imgs/SolverCompositeChild.png)
+![](../imgs/_solvers.png)
+- 看一下`SolverCompositeChild`: ![](../imgs/SolverCompositeChild.png)
 - 所以我们可以断定`_solver_list`里面存的其实是**约束表达式**
 
 PS: `if len(self._solver_list) == 0:`可以修改一下，只获取大小,没必要再构造一个`_solver_list`,功能是为了看`_solver`里面有多少个不一样的元素
