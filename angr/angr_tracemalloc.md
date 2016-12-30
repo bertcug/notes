@@ -20,6 +20,30 @@
 ```
 
 ## 64G分析结果，前20名，按行号分
+
+| File | linenum | size | count | average |
+|--------|-------|------|-------|---------|
+| claripy/frontends/constrained_frontend.py | 25 | 5175 MiB | 642314 | 8449 B |
+| claripy/frontend_mixins/constraint_deduplicator_mixin.py | 12 | 4694 MiB | 53518 | 89.0 KiB |
+| simuvex/storage/paged_memory.py | 129 | 4171 MiB | 218670 | 19.0 KiB |
+| claripy/frontends/composite_frontend.py | 32 | 3536 MiB | 108316 | 33.0 KiB |
+| angr/path_history.py | 57 | 1707 MiB | 188582 | 9494 B |
+| simuvex/s_event.py | 12 | 577 MiB | 788921 | 768 B |
+| simuvex/storage/paged_memory.py | 34 | 563 MiB | 2108823 | 280 B |
+| simuvex/storage/paged_memory.py | 825 | 556 MiB | 2513284 | 232 B |
+| simuvex/storage/paged_memory.py | 35 | 554 MiB | 2077918 | 280 B |
+| simuvex/storage/paged_memory.py | 62 | 536 MiB | 65134 | 8633 B
+| simuvex/storage/paged_memory.py | 189 | 385 MiB | 321979 | 1254 B |
+| simuvex/storage/paged_memory.py | 181 | 385 MiB | 321962 | 1255 B |
+| simuvex/s_event.py | 13 | 210 MiB | 789012 | 279 B |
+| simuvex/storage/memory.py | 294 | 196 MiB | 268650 | 768 B |
+| simuvex/storage/paged_memory.py | 143 | 196 MiB | 268529 | 767 B |
+| simuvex/plugins/scratch.py | 66 | 157 MiB | 107459 | 1540 B |
+| archinfo/arch.py | 48 | 157 MiB | 53851 | 3072 B |
+| angr/path.py | 72 | 142 MiB | 61344 | 2443 B |
+| simuvex/storage/file.py | 58 | 118 MiB | 161576 | 766 B |
+| simuvex/s_action.py | 56 | 95.0 MiB | 1561704 | 64 B |
+
 - 按文件分前十名
 
 | File | Size | Count | Average |
